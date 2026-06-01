@@ -1,4 +1,4 @@
-# Cobblestone Energy — DE_LU Day-Ahead Power Price Forecasting
+# DE_LU Day-Ahead Power Price Forecasting
 
 A five-component daily-run Python pipeline for German day-ahead electricity price forecasting, signal generation, AI-powered market intelligence, and automated PDF reporting. Built for the Cobblestone Energy technical case study.
 
