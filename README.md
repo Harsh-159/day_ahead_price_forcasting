@@ -1,6 +1,6 @@
 # DE_LU Day-Ahead Power Price Forecasting
 
-A five-component daily-run Python pipeline for German day-ahead electricity price forecasting, signal generation, AI-powered market intelligence, and automated PDF reporting. Built for the Cobblestone Energy technical case study.
+A five-component daily-run Python pipeline for German day-ahead electricity price forecasting, signal generation, AI-powered market intelligence, and automated PDF reporting. 
 
 **Best model**: LGBM+Ridge ensemble with 2-pass AR residual correction + hourly-EW bias adjustment
 - Hourly MAE: **13.6 €/MWh** | Weekly MAE: **5.79 €/MWh** | Monthly MAE: **4.00 €/MWh**
@@ -68,7 +68,7 @@ Required columns: `Date`, `Price`
 ## Project Structure
 
 ```
-cobblestone_project/
+main_project/
 │
 ├── src/                                    # Core pipeline modules
 │   ├── __init__.py
